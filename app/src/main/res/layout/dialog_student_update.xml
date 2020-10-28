@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lineupdate"
+    >
+    <TextView
+        android:text="thêm sinh viên"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/tensinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ten sinh vien"
+        />
+
+    <EditText
+        android:id="@+id/gioitinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="gioi tinh"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/ngaysinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:hint="ngay sinh (yyyy-mm-dd)" />
+
+        <Button
+            android:id="@+id/btnngaysinh"
+            android:text="chọn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/makhoahoc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ma khoa hoc"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/chinhsuasv"
+            android:text="chỉnh sửa"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/huy"
+            android:text="hủy"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

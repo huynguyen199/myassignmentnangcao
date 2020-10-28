@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        >
+        <TextView
+            android:id="@+id/masv"
+            android:text="ma sinh vien"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:id="@+id/tensv"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/masv"
+            android:text="ten sv"
+            />
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:id="@+id/ngaysinh"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tensv"
+            android:text="ngay sinh"
+            />
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/gioitinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ngaysinh"
+            android:text="gioi tinh"
+            />
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/makhoahoc"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gioitinh"
+            android:text="ma khoa hoc"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+
+            android:id="@+id/btnchinhsua"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_edit_black_24dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+        <Button
+            android:id="@+id/btnxoa"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_delete_forever_black_24dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btnchinhsua"
+            />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

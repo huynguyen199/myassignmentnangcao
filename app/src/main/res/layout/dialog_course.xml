@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:text="Thêm khóa học"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/makhoahoc"
+        android:gravity="center"
+        android:hint="mã khóa học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/tenkhoahoc"
+        android:gravity="center"
+        android:hint="tên khóa học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/giangvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="giang vien"
+        android:gravity="center"
+
+        />
+    <Button
+        android:id="@+id/startday"
+        android:text="ngày bắt đầu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/endday"
+        android:text="ngày kết "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/mota"
+        android:hint="mô tả"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnthem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="them" />
+
+        <Button
+            android:id="@+id/btnclose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="huy"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
